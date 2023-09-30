@@ -1,77 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="First 2019 coding bootcamp project"> 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;900&display=swap" rel="stylesheet">
-    <title>Home</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style1.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- styles -->
+	<link rel="stylesheet" href="./styles/styles.css">
+	<title>Home</title>
 </head>
 
 <body>  
-    <header class= "header">
-        <h1 class= "title">
-            Northside Youth Soccer League
-        </h1>
-        <img 
-            class= "img_logo" 
-            src="./styles/imgs/nysl_logo.png" 
-            alt="logo northside youth soccer league">
-        <h2 class=" subtitle">
-            Upcoming Events
-        </h2>  
-    </header>
+	<header class= "hero">
+		<h1 class= "hero__heading">
+			Northside Youth Soccer League
+		</h1>
+	</header>
+	
+	<main>
+		<section>
+			<div class= "container">
+				<div class= "container__bar">
+					<h2 class= "container__bar__title">
+						Upcoming Events
+					</h2> 
+					<div class= "logo">
+						<img src="./styles/imgs/nysl_logo.png" alt="nysl logo">
+					</div> 
+				</div>
 
-    <main>
-        <div class="container">
-            <nav class="navbar">
-                <ul class="menu">
-                    <li class="item">
-                        <a class="link current" href="#">Home</a>
-                    </li>
-                    <li class="item">
-                        <a class= "link" href="./pages/about.html">About NYSL</a>
-                    </li>
-                    <li class="item">
-                        <a class= "link" href="./pages/game_info.html">Fall Schedule</a>
-                    </li>            
-                    <li class="item">
-                        <a class= "link" href="./pages/rules.html">Rules of Play &amp; Policies</a>
-                    </li>              
-                    <li class="item">
-                        <a class= "link" href="./pages/register.html">Register</a>
-                    </li>
-                    <li class="item">
-                        <a class= "link" href="./pages/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+				<div class="sidebar">
+					<nav class= "nav">
+						<ul class= "nav__menu">
+							<li>
+								<a href="#">
+									Home
+								</a>
+							</li>
+							<li>
+								<a href="./pages/about.html">
+									About NYSL
+								</a>
+							</li>
+							<li>
+								<a href="./pages/contact.html">
+									Contact
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				
+				<div class= "content">
+					<h2 class="event__date">
+						August 4
+					</h2>
+					<p class="event__name">
+						NYSL Fundraiser
+					</p>
 
-            <section class="events">
-                    <h2 class="subtitle_event">
-                        August 4
-                    </h2>
-                    <p class="text_event">
-                        NYSL Fundraiser
-                    </p>
+					<h2 class="event__date">
+						August 16
+					</h2>
+					<p class="event__name">
+						Season Kick-Off: Meet the Teams
+					</p>
 
-                    <h2 class="subtitle_event">
-                        August 16
-                    </h2>
-                    <p class="text_event">
-                        Season Kick-Off: Meet the Teams
-                    </p>
-
-                    <h2 class="subtitle_event">
-                        September 1
-                    </h2>
-                    <p class="text_event">
-                        First Game of The Season. Check Game Schedule for details.
-                    </p>
-            </section>    
-        </div>
-    </main>
+					<h2 class="event__date">
+						September 1
+					</h2>
+					<p class="event__name">
+						First Game of The Season. Check Game Schedule for details.
+					</p>
+				</div>			
+			</div>
+		</section>		
+	</main>
 </body>
 </html>
