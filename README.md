@@ -7,4 +7,4 @@
 
 [Live demo](https://amansgz.github.io/static_website1/)
 
-[preview screenshot](./styles/imgs/preview.png)
+![preview screenshot](./styles/imgs/preview.png)
